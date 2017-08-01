@@ -1,5 +1,7 @@
 import re
 import urllib.request
+
+ 
 try:
     url = "http://dictionary.reference.com/browse/"
     word = input("Enter your word: ")
@@ -15,4 +17,4 @@ try:
     definition = newString[0:end]
     print(definition)
 except:
-    print("I'm sorry, you're word is not in the dictionary.")
+    print("I'm sorry, you're word is not in the dictionary")
